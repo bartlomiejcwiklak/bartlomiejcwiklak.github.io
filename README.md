@@ -1,5 +1,7 @@
-whats up
-
+- studying comp sci @ IFE Lodz University of Technology
+- freelance graphic and layout designer
+- former video editor
+- hobbyist music producer
 <!--
 **bartlomiejcwiklak/bartlomiejcwiklak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
