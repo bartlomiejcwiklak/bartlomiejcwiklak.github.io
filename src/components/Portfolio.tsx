@@ -19,6 +19,7 @@ const Github = ({ size = 20 }: { size?: number }) => (
     <path d="M9 18c-4.51 2-5-2-7-2" />
   </svg>
 );
+
 import { projects, categories } from '../data/projects';
 import type { Project } from '../data/projects';
 

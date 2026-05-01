@@ -13,8 +13,10 @@ const Privacy = () => {
       {/* Navigation */}
       <div className="fixed bottom-6 left-6 md:bottom-12 md:left-12 z-50 pb-[env(safe-area-inset-bottom)]">
         <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 20 }}
+          transition={{ duration: 0.8, ease: "easeIn", delay: 0.4 }}
         >
           <Link 
             to="/" 
