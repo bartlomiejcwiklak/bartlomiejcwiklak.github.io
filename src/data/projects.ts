@@ -261,6 +261,28 @@ export const projects: Project[] = [
     ],
     year: '2025'
   },
+  {
+    id: '20',
+    title: 'Clipless',
+    category: 'Desktop',
+    description: 'Clipless is an easy to use clip recorder, editor and organizer for gaming',
+    imageUrl: '/images/clipless.jpg',
+    links: {
+      github: 'https://github.com/bartlomiejcwiklak/clipless',
+    },
+    year: '2026'
+  },
+  {
+    id: '21',
+    title: 'Gemini Organizer',
+    category: 'Web',
+    description: 'Gemini Organizer is a browser extension for Chromium and Firefox based browsers, enabling users to organize their Gemini chats.',
+    imageUrl: '/images/gemini.jpg',
+    links: {
+      github: 'https://github.com/bartlomiejcwiklak/GeminiOrganizer',
+    },
+    year: '2026'
+  },
 ];
 
 export const categories = ['All', ...new Set(projects.map(p => p.category))];
