@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Landing = () => {
   return (
-    <div className="relative h-screen w-full bg-transparent text-white overflow-hidden font-sans selection:bg-white selection:text-black">
+    <div className="relative h-[100dvh] w-full bg-transparent text-white overflow-hidden font-sans selection:bg-white selection:text-black">
 
 
       {/* Top Right: Mission */}
-      <div className="absolute top-8 right-8 md:top-12 md:right-12 z-10 text-right">
+      <div className="absolute top-6 right-6 md:top-12 md:right-12 z-10 text-right">
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -22,7 +22,7 @@ const Landing = () => {
       </div>
 
       {/* Bottom Left: Contact */}
-      <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12 z-10">
+      <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 z-10 pb-[env(safe-area-inset-bottom)]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

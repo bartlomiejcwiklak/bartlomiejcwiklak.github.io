@@ -37,7 +37,7 @@ const Portfolio = () => {
     : sortedProjects.filter(p => p.category === activeCategory);
 
   return (
-    <div className="min-h-screen w-full bg-transparent text-white px-8 py-20 md:px-12 md:py-32 font-sans overflow-y-auto">
+    <div className="min-h-[100dvh] w-full bg-transparent text-white px-8 py-20 md:px-12 md:py-32 font-sans overflow-y-auto no-scrollbar">
       {/* Navigation */}
       <div className="fixed bottom-8 left-8 md:bottom-12 md:left-12 z-50">
         <motion.div
