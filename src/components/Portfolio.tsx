@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ExternalLink, Code, Image as ImageIcon } from 'lucide-react';
+import { ExternalLink, Image as ImageIcon } from 'lucide-react';
 import ImageGallery from './ImageGallery';
 
 const Github = ({ size = 20 }: { size?: number }) => (
