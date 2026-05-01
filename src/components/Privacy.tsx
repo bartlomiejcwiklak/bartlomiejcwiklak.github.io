@@ -18,9 +18,9 @@ const Privacy = () => {
         >
           <Link 
             to="/" 
-            className="group flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.5em] text-zinc-500 hover:text-white transition-colors"
+            className="font-mono text-[10px] md:text-xs uppercase tracking-[0.3em] text-white hover:text-zinc-400 transition-colors duration-300"
           >
-            <span className="group-hover:-translate-x-1 transition-transform duration-300">←</span> Back to Home
+            Back to Home
           </Link>
         </motion.div>
       </div>
