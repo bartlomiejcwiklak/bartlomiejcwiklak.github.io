@@ -32,6 +32,7 @@ const Landing = () => {
         >
           <div className="flex flex-col gap-2">
             <Link to="/portfolio" className="hover:text-zinc-400 transition-colors duration-300">Portfolio</Link>
+            <Link to="/about" className="hover:text-zinc-400 transition-colors duration-300">About</Link>
             <a href="mailto:contact@bartlomiejcwiklak.com" className="hover:text-zinc-400 transition-colors duration-300">Email</a>
             <a href="https://github.com/bartlomiejcwiklak" target="_blank" rel="noopener" className="hover:text-zinc-400 transition-colors duration-300">GitHub</a>
             <a href="https://linkedin.com/in/bartlomiejcwiklak" target="_blank" rel="noopener" className="hover:text-zinc-400 transition-colors duration-300">LinkedIn</a>
